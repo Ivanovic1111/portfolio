@@ -1,0 +1,13 @@
+#floatleft{
+	position: fixed;
+	top:20px;
+	left: 20px;
+	width:65%;
+	color:#B28D65;
+	background: #C3FFE6;
+	padding:20px;
+}
+header div{
+	top:20px;
+	left: 50px;
+}
