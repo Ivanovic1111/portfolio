@@ -1,0 +1,28 @@
+
+
+div#fixed{
+display:flex;
+
+}
+div.relative{
+
+	display: flex;
+}
+
+/* Background Gradient for Triadic Colors */
+body
+{
+    background-color: #CF9BCF;
+    /* For WebKit (Safari, Chrome, etc) */
+    background: #CF9BCF -webkit-gradient(linear, left top, left bottom, from(#DCF5F5), to(#CF9BCF)) no-repeat;
+    /* Mozilla,Firefox/Gecko */
+    background: #CF9BCF -moz-linear-gradient(top, #DCF5F5, #CF9BCF) no-repeat;
+    /* IE 5.5 - 7 */
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#DCF5F5, endColorstr=#CF9BCF) no-repeat;
+    /* IE 8 */
+    -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#DCF5F5, endColorstr=#DCF5F5)" no-repeat;
+}
+.verticalLine {
+  border-left: thick solid #8DA7D8;
+  box-shadow: 0 0 15px 5px rgba(31, 73, 125, 0.8);
+}
